@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Megapolis notifications for registrar working space
 // @namespace    http://tampermonkey.net/
-// @version      5.0
+// @version      6.0
 // @description  corpo shit
 // @author       Aga
 // @include      https://sed.ugv.corp/
@@ -21,26 +21,6 @@ function ShowNotification(senderElementID)
         case 'ubtableview-1658':
             body = '\nВам надіслано новий документ для візування';
             tag = 'mgplsSightNotif_rgstr';
-            break;
-        case 'ubtableview-1588':
-            body = '\nВам надіслано новий інформаційний документ';
-            tag = 'mgplsInfoNotif_rgstr';
-            break;
-        case 'ubtableview-1515':
-            body = '\nВам надіслано новий документ на підпис';
-            tag = 'mgplsSignNotif_rgstr';
-            break;
-        case 'ubtableview-1445':
-            body = '\nВам надіслано новий документ на виконання';
-            tag = 'mgplsExecNotif_rgstr';
-            break;
-        case 'ubtableview-1373':
-            body = '\nВам надіслано новий документ для реєстрації';
-            tag = 'mgplsRegistNotif_rgstr';
-            break;
-        case 'ubtableview-1195':
-            body = '\nВам надіслано новий документ на рецензування';
-            tag = 'mgplsReviewNotif_rgstr';
             break;
     }
     let configNotification = {body: body, icon: 'https://sed.ugv.corp/models/DOC/images/m-docnet.png',
