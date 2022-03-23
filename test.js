@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Megapolis notifications for registrar working space
 // @namespace    http://tampermonkey.net/
-// @version      2.0
+// @version      3.0
 // @description  corpo shit
 // @author       Aga
 // @include      https://sed.ugv.corp/
