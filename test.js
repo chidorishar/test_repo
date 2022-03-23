@@ -8,8 +8,8 @@
 // @exclude      https://sed.ugv.corp/models/*
 // @run-at       document-end
 // @icon         https://sed.ugv.corp/models/DOC/images/m-docnet.png
-// @updateURL    https://raw.githubusercontent.com/chidorishar/test_repo/main/test.js
-// @downloadURL  https://raw.githubusercontent.com/chidorishar/test_repo/main/test.js
+// @updateURL    https://github.com/chidorishar/test_repo/raw/main/test.js
+// @downloadURL  https://github.com/chidorishar/test_repo/raw/main/test.js
 // ==/UserScript==
 
 function ShowNotification(senderElementID)
